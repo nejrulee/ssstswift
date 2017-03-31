@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECED25EE1E8E3E6300174C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED25ED1E8E3E6300174C57 /* AppDelegate.swift */; };
+		ECED25F01E8E3E6300174C57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED25EF1E8E3E6300174C57 /* ViewController.swift */; };
+		ECED25F31E8E3E6300174C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECED25F11E8E3E6300174C57 /* Main.storyboard */; };
+		ECED25F61E8E3E6300174C57 /* nejrulee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECED25F41E8E3E6300174C57 /* nejrulee.xcdatamodeld */; };
+		ECED25F81E8E3E6300174C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECED25F71E8E3E6300174C57 /* Assets.xcassets */; };
+		ECED25FB1E8E3E6300174C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECED25F91E8E3E6300174C57 /* LaunchScreen.storyboard */; };
+		ECED26061E8E3E6300174C57 /* nejruleeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED26051E8E3E6300174C57 /* nejruleeTests.swift */; };
+		ECED26111E8E3E6300174C57 /* nejruleeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED26101E8E3E6300174C57 /* nejruleeUITests.swift */; };
+		ECED261F1E8E406E00174C57 /* nejrulee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED261E1E8E406E00174C57 /* nejrulee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECED26021E8E3E6300174C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECED25E21E8E3E6300174C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECED25E91E8E3E6300174C57;
+			remoteInfo = nejrulee;
+		};
+		ECED260D1E8E3E6300174C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECED25E21E8E3E6300174C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECED25E91E8E3E6300174C57;
+			remoteInfo = nejrulee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECED25EA1E8E3E6300174C57 /* nejrulee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nejrulee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECED25ED1E8E3E6300174C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECED25EF1E8E3E6300174C57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECED25F21E8E3E6300174C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECED25F51E8E3E6300174C57 /* nejrulee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nejrulee.xcdatamodel; sourceTree = "<group>"; };
+		ECED25F71E8E3E6300174C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECED25FA1E8E3E6300174C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECED25FC1E8E3E6300174C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECED26011E8E3E6300174C57 /* nejruleeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nejruleeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECED26051E8E3E6300174C57 /* nejruleeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nejruleeTests.swift; sourceTree = "<group>"; };
+		ECED26071E8E3E6300174C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECED260C1E8E3E6300174C57 /* nejruleeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nejruleeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECED26101E8E3E6300174C57 /* nejruleeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nejruleeUITests.swift; sourceTree = "<group>"; };
+		ECED26121E8E3E6300174C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECED261E1E8E406E00174C57 /* nejrulee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nejrulee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECED25E71E8E3E6300174C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED25FE1E8E3E6300174C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED26091E8E3E6300174C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECED25E11E8E3E6300174C57 = {
+			isa = PBXGroup;
+			children = (
+				ECED25EC1E8E3E6300174C57 /* nejrulee */,
+				ECED26041E8E3E6300174C57 /* nejruleeTests */,
+				ECED260F1E8E3E6300174C57 /* nejruleeUITests */,
+				ECED25EB1E8E3E6300174C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECED25EB1E8E3E6300174C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECED25EA1E8E3E6300174C57 /* nejrulee.app */,
+				ECED26011E8E3E6300174C57 /* nejruleeTests.xctest */,
+				ECED260C1E8E3E6300174C57 /* nejruleeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECED25EC1E8E3E6300174C57 /* nejrulee */ = {
+			isa = PBXGroup;
+			children = (
+				ECED25ED1E8E3E6300174C57 /* AppDelegate.swift */,
+				ECED25EF1E8E3E6300174C57 /* ViewController.swift */,
+				ECED25F11E8E3E6300174C57 /* Main.storyboard */,
+				ECED261E1E8E406E00174C57 /* nejrulee.swift */,
+				ECED25F71E8E3E6300174C57 /* Assets.xcassets */,
+				ECED25F91E8E3E6300174C57 /* LaunchScreen.storyboard */,
+				ECED25FC1E8E3E6300174C57 /* Info.plist */,
+				ECED25F41E8E3E6300174C57 /* nejrulee.xcdatamodeld */,
+			);
+			path = nejrulee;
+			sourceTree = "<group>";
+		};
+		ECED26041E8E3E6300174C57 /* nejruleeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECED26051E8E3E6300174C57 /* nejruleeTests.swift */,
+				ECED26071E8E3E6300174C57 /* Info.plist */,
+			);
+			path = nejruleeTests;
+			sourceTree = "<group>";
+		};
+		ECED260F1E8E3E6300174C57 /* nejruleeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECED26101E8E3E6300174C57 /* nejruleeUITests.swift */,
+				ECED26121E8E3E6300174C57 /* Info.plist */,
+			);
+			path = nejruleeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECED25E91E8E3E6300174C57 /* nejrulee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECED26151E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejrulee" */;
+			buildPhases = (
+				ECED25E61E8E3E6300174C57 /* Sources */,
+				ECED25E71E8E3E6300174C57 /* Frameworks */,
+				ECED25E81E8E3E6300174C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nejrulee;
+			productName = nejrulee;
+			productReference = ECED25EA1E8E3E6300174C57 /* nejrulee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECED26001E8E3E6300174C57 /* nejruleeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECED26181E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejruleeTests" */;
+			buildPhases = (
+				ECED25FD1E8E3E6300174C57 /* Sources */,
+				ECED25FE1E8E3E6300174C57 /* Frameworks */,
+				ECED25FF1E8E3E6300174C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECED26031E8E3E6300174C57 /* PBXTargetDependency */,
+			);
+			name = nejruleeTests;
+			productName = nejruleeTests;
+			productReference = ECED26011E8E3E6300174C57 /* nejruleeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECED260B1E8E3E6300174C57 /* nejruleeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECED261B1E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejruleeUITests" */;
+			buildPhases = (
+				ECED26081E8E3E6300174C57 /* Sources */,
+				ECED26091E8E3E6300174C57 /* Frameworks */,
+				ECED260A1E8E3E6300174C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECED260E1E8E3E6300174C57 /* PBXTargetDependency */,
+			);
+			name = nejruleeUITests;
+			productName = nejruleeUITests;
+			productReference = ECED260C1E8E3E6300174C57 /* nejruleeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECED25E21E8E3E6300174C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mini3;
+				TargetAttributes = {
+					ECED25E91E8E3E6300174C57 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ECED26001E8E3E6300174C57 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ECED25E91E8E3E6300174C57;
+					};
+					ECED260B1E8E3E6300174C57 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ECED25E91E8E3E6300174C57;
+					};
+				};
+			};
+			buildConfigurationList = ECED25E51E8E3E6300174C57 /* Build configuration list for PBXProject "nejrulee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECED25E11E8E3E6300174C57;
+			productRefGroup = ECED25EB1E8E3E6300174C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECED25E91E8E3E6300174C57 /* nejrulee */,
+				ECED26001E8E3E6300174C57 /* nejruleeTests */,
+				ECED260B1E8E3E6300174C57 /* nejruleeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECED25E81E8E3E6300174C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED25FB1E8E3E6300174C57 /* LaunchScreen.storyboard in Resources */,
+				ECED25F81E8E3E6300174C57 /* Assets.xcassets in Resources */,
+				ECED25F31E8E3E6300174C57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED25FF1E8E3E6300174C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED260A1E8E3E6300174C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECED25E61E8E3E6300174C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED25F01E8E3E6300174C57 /* ViewController.swift in Sources */,
+				ECED25EE1E8E3E6300174C57 /* AppDelegate.swift in Sources */,
+				ECED25F61E8E3E6300174C57 /* nejrulee.xcdatamodeld in Sources */,
+				ECED261F1E8E406E00174C57 /* nejrulee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED25FD1E8E3E6300174C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED26061E8E3E6300174C57 /* nejruleeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED26081E8E3E6300174C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED26111E8E3E6300174C57 /* nejruleeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECED26031E8E3E6300174C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECED25E91E8E3E6300174C57 /* nejrulee */;
+			targetProxy = ECED26021E8E3E6300174C57 /* PBXContainerItemProxy */;
+		};
+		ECED260E1E8E3E6300174C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECED25E91E8E3E6300174C57 /* nejrulee */;
+			targetProxy = ECED260D1E8E3E6300174C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECED25F11E8E3E6300174C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECED25F21E8E3E6300174C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECED25F91E8E3E6300174C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECED25FA1E8E3E6300174C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECED26131E8E3E6300174C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECED26141E8E3E6300174C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECED26161E8E3E6300174C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nejrulee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabla.nejrulee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECED26171E8E3E6300174C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nejrulee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabla.nejrulee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECED26191E8E3E6300174C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nejruleeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabla.nejruleeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nejrulee.app/nejrulee";
+			};
+			name = Debug;
+		};
+		ECED261A1E8E3E6300174C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nejruleeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabla.nejruleeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nejrulee.app/nejrulee";
+			};
+			name = Release;
+		};
+		ECED261C1E8E3E6300174C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nejruleeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabla.nejruleeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nejrulee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECED261D1E8E3E6300174C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nejruleeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabla.nejruleeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nejrulee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECED25E51E8E3E6300174C57 /* Build configuration list for PBXProject "nejrulee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED26131E8E3E6300174C57 /* Debug */,
+				ECED26141E8E3E6300174C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECED26151E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejrulee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED26161E8E3E6300174C57 /* Debug */,
+				ECED26171E8E3E6300174C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECED26181E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejruleeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED26191E8E3E6300174C57 /* Debug */,
+				ECED261A1E8E3E6300174C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECED261B1E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejruleeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED261C1E8E3E6300174C57 /* Debug */,
+				ECED261D1E8E3E6300174C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECED25F41E8E3E6300174C57 /* nejrulee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECED25F51E8E3E6300174C57 /* nejrulee.xcdatamodel */,
+			);
+			currentVersion = ECED25F51E8E3E6300174C57 /* nejrulee.xcdatamodel */;
+			path = nejrulee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECED25E21E8E3E6300174C57 /* Project object */;
+}
