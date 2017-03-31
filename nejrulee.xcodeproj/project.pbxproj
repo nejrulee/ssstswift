@@ -16,6 +16,7 @@
 		ECED26061E8E3E6300174C57 /* nejruleeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED26051E8E3E6300174C57 /* nejruleeTests.swift */; };
 		ECED26111E8E3E6300174C57 /* nejruleeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED26101E8E3E6300174C57 /* nejruleeUITests.swift */; };
 		ECED261F1E8E406E00174C57 /* nejrulee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED261E1E8E406E00174C57 /* nejrulee.swift */; };
+		ECED26211E8E5A3400174C57 /* nebitno.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED26201E8E5A3400174C57 /* nebitno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		ECED26101E8E3E6300174C57 /* nejruleeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nejruleeUITests.swift; sourceTree = "<group>"; };
 		ECED26121E8E3E6300174C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECED261E1E8E406E00174C57 /* nejrulee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nejrulee.swift; sourceTree = "<group>"; };
+		ECED26201E8E5A3400174C57 /* nebitno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nebitno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				ECED25ED1E8E3E6300174C57 /* AppDelegate.swift */,
 				ECED25EF1E8E3E6300174C57 /* ViewController.swift */,
 				ECED25F11E8E3E6300174C57 /* Main.storyboard */,
+				ECED26201E8E5A3400174C57 /* nebitno.swift */,
 				ECED261E1E8E406E00174C57 /* nejrulee.swift */,
 				ECED25F71E8E3E6300174C57 /* Assets.xcassets */,
 				ECED25F91E8E3E6300174C57 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				ECED25F01E8E3E6300174C57 /* ViewController.swift in Sources */,
 				ECED25EE1E8E3E6300174C57 /* AppDelegate.swift in Sources */,
 				ECED25F61E8E3E6300174C57 /* nejrulee.xcdatamodeld in Sources */,
+				ECED26211E8E5A3400174C57 /* nebitno.swift in Sources */,
 				ECED261F1E8E406E00174C57 /* nejrulee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +496,7 @@
 				ECED26171E8E3E6300174C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECED26181E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejruleeTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				ECED261A1E8E3E6300174C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECED261B1E8E3E6300174C57 /* Build configuration list for PBXNativeTarget "nejruleeUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				ECED261D1E8E3E6300174C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

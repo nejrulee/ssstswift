@@ -5,6 +5,34 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
+        <!--Button-->
+        <scene sceneID="9td-98-rqN">
+            <objects>
+                <viewController id="nM3-ta-7fw" customClass="Button" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="46m-pl-hJc"/>
+                        <viewControllerLayoutGuide type="bottom" id="sPd-BG-m3G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hwk-Ct-PqF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdF-U8-cti">
+                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dzenana:" destination="nM3-ta-7fw" eventType="touchUpInside" id="FsJ-PQ-cqB"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="Dz" id="MP3-xF-leu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XlF-a8-gSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819" y="489"/>
+        </scene>
         <!--Nejra-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -18,11 +46,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntc-XH-hpj">
-                                <rect key="frame" x="24" y="37" width="159" height="109"/>
+                                <rect key="frame" x="47" y="36" width="159" height="109"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHX-0h-7ZL">
+                                <rect key="frame" x="26" y="218" width="77" height="43"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Klb-Te-bRi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apg-vr-KiU">
+                                <rect key="frame" x="41" y="382" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="nM3-ta-7fw" kind="show" id="6Wg-tn-5yX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -32,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="429"/>
+            <point key="canvasLocation" x="121" y="480"/>
         </scene>
     </scenes>
 </document>

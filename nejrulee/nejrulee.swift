@@ -12,6 +12,9 @@ class Nejra: UIViewController {
     @IBOutlet var playLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    @IBAction func Button(sender: AnyObject) {
         self.playLabel.text="Stagod"
     }
     
